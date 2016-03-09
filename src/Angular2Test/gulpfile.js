@@ -1,4 +1,4 @@
-﻿/// <binding Clean='clean' />
+/// <binding AfterBuild='moveNpmToCss, moveNpmToLibs' Clean='clean' />
 "use strict";
 
 var gulp = require("gulp"),
